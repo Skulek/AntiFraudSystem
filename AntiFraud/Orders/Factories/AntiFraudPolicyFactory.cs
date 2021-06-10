@@ -8,6 +8,12 @@ namespace AntiFraud.Orders.Factories
     public class AntiFraudPolicyFactory : IAntiFraudPolicyFactory
     {
         private readonly IConfiguration configuration;
+
+        public AntiFraudPolicyFactory(IConfiguration configuration)
+        {
+            this.configuration = configuration;
+        }
+
         private double StartupFactorOfAmmount = 5;
 
         public List<IAntiFraudPolicy> GetAntiFraudPolicy()
