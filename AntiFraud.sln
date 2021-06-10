@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntiFraud", "AntiFraud\AntiFraud.csproj", "{8C2D1D4B-A8FC-4466-A895-0E2140347E77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntiFraudTests", "AntiFraudTests\AntiFraudTests.csproj", "{24057404-0454-4978-AB48-4A136F1460F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C2D1D4B-A8FC-4466-A895-0E2140347E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C2D1D4B-A8FC-4466-A895-0E2140347E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C2D1D4B-A8FC-4466-A895-0E2140347E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2D1D4B-A8FC-4466-A895-0E2140347E77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24057404-0454-4978-AB48-4A136F1460F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24057404-0454-4978-AB48-4A136F1460F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24057404-0454-4978-AB48-4A136F1460F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24057404-0454-4978-AB48-4A136F1460F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68C837E7-790E-4570-A92D-F25608749470}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,68 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Orders\" />
+    <None Remove="Orders\Services\" />
+    <None Remove="Orders\Dtos\" />
+    <None Remove="Orders\Models\" />
+    <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="Orders\Mappings\" />
+    <None Remove="Orders\Repository\" />
+    <None Remove="Quartz.Extensions.Hosting" />
+    <None Remove="Microsoft.EntityFrameworkCore.InMemory" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="EntityFramework" />
+    <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="Orders\Entities\" />
+    <None Remove="Products\" />
+    <None Remove="Products\Dtos\" />
+    <None Remove="Products\Entities\" />
+    <None Remove="Products\Models\" />
+    <None Remove="Products\Mappings\" />
+    <None Remove="Products\Services\" />
+    <None Remove="Products\Repositories\" />
+    <None Remove="Orders\Extensions\" />
+    <None Remove="FluentValidation.DependencyInjectionExtensions" />
+    <None Remove="FluentValidation" />
+    <None Remove="FluentValidation.AspNetCore" />
+    <None Remove="Orders\Validators\" />
+    <None Remove="Products\Controllers\" />
+    <None Remove="Orders\Controllers\" />
+    <None Remove="Orders\Factories\" />
+    <None Remove="DbContext\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Orders\" />
+    <Folder Include="Orders\Services\" />
+    <Folder Include="Orders\Dtos\" />
+    <Folder Include="Orders\Models\" />
+    <Folder Include="Orders\Mappings\" />
+    <Folder Include="Orders\Repository\" />
+    <Folder Include="Orders\Entities\" />
+    <Folder Include="Products\" />
+    <Folder Include="Products\Dtos\" />
+    <Folder Include="Products\Entities\" />
+    <Folder Include="Products\Models\" />
+    <Folder Include="Products\Mappings\" />
+    <Folder Include="Products\Services\" />
+    <Folder Include="Products\Repositories\" />
+    <Folder Include="Orders\Extensions\" />
+    <Folder Include="Orders\Validators\" />
+    <Folder Include="Products\Controllers\" />
+    <Folder Include="Orders\Controllers\" />
+    <Folder Include="Orders\Factories\" />
+    <Folder Include="DbContext\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Quartz.Extensions.Hosting" Version="3.3.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.6" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.2.3" />
+  </ItemGroup>
+</Project>
